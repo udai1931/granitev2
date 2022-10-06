@@ -245,6 +245,7 @@ DEPENDENCIES
   responders
   rubocop
   rubocop-rails
+  sprockets
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
