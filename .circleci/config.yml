@@ -27,7 +27,7 @@ jobs:
           --path=vendor/bundle --jobs=4 --retry=3
       # Yarn install
       - run:
-          chmod a+x ./bin/yarn && ./bin/yarn install --cache-folder
+          chmod a+x yarn && yarn install --cache-folder
           vendor/node_modules
       # Ensure Rubocop has linted all Ruby files
       - run: bundle exec rubocop
