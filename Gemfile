@@ -10,6 +10,8 @@ gem "rails", "~> 7.0.3", ">= 7.0.3.1"
 
 gem "sprockets"
 
+gem "uglifier", ">= 2.7.1"
+
 # For compiling and bundling JavaScript. Read more: https://github.com/rails/webpacker
 gem "webpacker"
 
