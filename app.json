@@ -1,0 +1,22 @@
+{
+  "name": "graniteV2",
+  "scripts": {},
+  "stack": "heroku-20",
+  "formation": {},
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "13"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}
